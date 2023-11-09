@@ -1,0 +1,152 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: aliceblue;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.app {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue; /* Цвет фона всей страницы */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  min-height: 100vh;
+}
+
+.top-menu {
+  background-color: green; /* Цвет хедера */
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1000px;
+  margin-bottom: 20px;
+ padding: 20px;
+}
+
+.top-menu h1 {
+  font-size: 24px;
+ color: white;
+}
+
+.top-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+color: white;
+}
+
+.top-menu ul li {
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.menu-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  width: 300px;
+}
+
+.menu-item h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.menu-item p {
+  margin: 10px 0;
+}
+
+.menu-item p:first-child {
+  font-weight: bold;
+}
+
+.menu-item:hover {
+  background-color: #f0f0f0;
+}
+
+.menu-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.menu-buttons button {
+  background-color: #4CAF50; 
+  color: white; 
+  border: none;
+  padding: 10px 10px;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.menu-buttons button:hover {
+  background-color: #45a049;
+}
+
+.menu-item button {
+  background-color:green;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.menu-item button:hover {
+  background-color: #005F7E;
+}
+
+.menu-item {
+  width: calc(40% - 20px); 
+  margin: 1%;
+  padding: 20px; 
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  text-align: center;
+  transition: height 0.3s;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+
+.menu-image-container {
+  width: 100%;
+  height: 200px; 
+  overflow: hidden; 
+}
+
+.menu-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+.menu-buttons {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.expanded {
+  height: auto;
+}
